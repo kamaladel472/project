@@ -1,0 +1,90 @@
+#include <iostream>
+using namespace std;
+class Node{
+public:
+    char data;
+    Node* next;
+};
+int main() {
+Node* K1 = new Node();
+Node* K2 = new Node();
+Node* K3 = new Node();
+Node* K4 = new Node();
+Node* K5 = new Node();
+
+Node* A1 = new Node();
+Node* A2 = new Node();
+Node* A3 = new Node();
+Node* A4 = new Node();
+Node* A5 = new Node();
+
+Node* M1 = new Node();
+Node* M2 = new Node();
+Node* M3 = new Node();
+Node* M4 = new Node();
+Node* M5 = new Node();
+
+Node* A6 = new Node();
+Node* A7 = new Node();
+Node* A8 = new Node();
+Node* A9 = new Node();
+Node* A10 = new Node();
+
+Node* L1 = new Node();
+Node* L2 = new Node();
+Node* L3 = new Node();
+Node* L4 = new Node();
+
+K1->data = 'K';
+K1->next = K2;
+K2->data = 'K';
+K2->next = K3;
+K3->data = 'K';
+K3->next = nullptr;
+K4->data = 'K';
+K4->next = K2;
+K5->data = 'K';
+K5->next = K2;
+
+A1->data = 'A';
+A1->next = A2;
+A2->data = 'A';
+A2->next = A3;
+A3->data = 'A';
+A3->next = A4;
+A4->data = 'A';
+A4->next = A5;
+A5->data = 'A';
+A5->next = nullptr;
+
+M1->data = 'M';
+M1->next = M2;
+M2->data = 'M';
+M2->next = M3;
+M3->data = 'M';
+M3->next = M4;
+M4->data = 'M';
+M4->next = M5;
+M5->data = 'M';
+M5->next = nullptr;
+
+A6->data = 'A';
+A6->next = A7;
+A7->data = 'A';
+A7->next = A8;
+A8->data = 'A';
+A8->next = A9;
+A9->data = 'A';
+A9->next = A10;
+A10->data = 'A';
+A10->next = nullptr;
+
+L1->data = 'L';
+L1->next = L2;
+L2->data = 'L';
+L2->next = L3;
+L3->data = 'L';
+L3->next = L4;
+L4->data = 'L';
+L4->next = nullptr;
+}
